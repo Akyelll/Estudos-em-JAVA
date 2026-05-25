@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args){
+        
+        String[] alunos = {"Felipe", "Roberto", "Carlos"};
+        
+        int[] notas = {6 , 7 , 5 } ;
+        
+           int i = 0;
+
+        while (i < alunos.length) {
+        
+
+      if( notas[i] >= 6) {
+          System.out.println("Olá " + alunos[i]  + "você foi aprovado");
+          
+      }else {
+           System.out.println("Olá " + alunos[i] + "você foi reprovado");
+    }
+    
+    i++;
+}
+    }
+}
